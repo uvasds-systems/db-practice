@@ -3,7 +3,7 @@
 To work with MySQL directly, you can run one locally or within Codespaces with the following command:
 
 ```
-docker run --name test-mysql -e MYSQL_ROOT_PASSWORD=abc123 -d mysql
+docker run -e MYSQL_ROOT_PASSWORD=abc123 -d mysql
 ```
 
 That will run the database container. Next, find the ID of the running container with this command:
